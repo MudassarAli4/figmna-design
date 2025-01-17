@@ -1,0 +1,220 @@
+/* ---      Media Queries for Responsiveness      --- */
+
+@media screen and (max-width: 1120px) {
+    .main-section .right-section img {
+        width: 520px;
+        height: 570px;
+    }
+    .main-section .left-section div #intro {
+        font-size: 42px;
+    }
+    #about .right-section img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    header nav {
+        padding: 0 40px;
+    }
+
+    .main-section .background-img {
+        display: none;
+    }
+
+    .main-section .left-section {
+        margin-left: 80px;
+    }
+
+    .main-section .left-section div #intro {
+        font-size: 36px;
+    }
+
+    .main-section .left-section div p {
+        font-size: 16px ;
+    }
+
+    .main-section .right-section img {
+        width: 450px;
+        height: 500px;
+    }
+
+    #about .right-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 40px;
+    }
+
+    .about-section {
+        width: 100%;
+        margin: 100px 80px;
+    }
+
+    #about .right-section img {
+        width: 350px;
+        height: 350px;
+        padding-left: 100px;
+    }
+
+    #about .left-section div #intro,
+    .about-section .right-section div #intro {
+        font-size: 26px;
+    }
+
+    #about .left-section div p,
+    .about-section .right-section div p {
+        font-size: 12px; 
+    }
+
+    .about-section .right-section div {
+        width: 50%;
+    }
+
+    .about-section .left-section img {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0; 
+        margin: 0;
+    }
+
+    /* header nav ul {
+        flex-direction: column;
+        gap: 20px;
+    } */
+
+    /* header nav ul li {
+        margin: 0;
+    } */
+
+    .main-section {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        /* padding-top: 50px; */
+    }
+
+    .main-section .right-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-section .left-section {
+        width: 80%;
+        margin: 0;
+    }
+
+    .main-section .right-section img {
+        width: 80%;
+        height: auto;
+    }
+
+    .about-section {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about-section .left-section,
+    .about-section .right-section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about .left-section div #intro,
+    .about-section .right-section div #intro {
+        font-size: 30px;
+    }
+
+    #about .left-section div p,
+    .about-section .right-section div p {
+        font-size: 14px;
+    }
+
+    .about-section .right-section div {
+        width: 75%;
+    }
+
+    .purchase .section {
+        width: 90%;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    .footer .bottom .nav ul,
+    .footer .bottom .contact ul {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .btn,
+    .main-section .btn-1 {
+        width: 120px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    .main-section .left-section div #intro {
+        font-size: 36px;
+    }
+
+    .main-section .left-section div p {
+        font-size: 14px;
+    }
+
+    .main-section .background-img {
+        display: block;
+        width: 100%;
+        height: 720px;
+        top: -75px;
+    }
+
+    .purchase .section h1 {
+        font-size: 28px;
+    }
+
+    .purchase .section span#price {
+        font-size: 36px;
+    }
+
+    .purchase .section p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .footer .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer .bottom .nav,
+    .footer .bottom .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
